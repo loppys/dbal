@@ -1,0 +1,15 @@
+{
+  "name": "vengine-libs/dbal",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vengine\\Libraries\\DBAL\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "doctrine/dbal": "^4.0",
+    "vengine-libs/console": "*"
+  },
+  "minimum-stability": "dev"
+}
